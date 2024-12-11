@@ -98,8 +98,8 @@ This project demonstrates the power of ensemble methods in improving predictive 
 Contact
 For any questions or comments, please feel free to contact me:
 
-Email: your.email@example.com
-GitHub: github.com/yourusername
+Email:karanrpjain@gmail.com
+GitHub: github.com/KaranJain09
 End of README
 
 This README is designed to present your project in a professional, clear, and well-structured way. It highlights all key aspects, including the motivation, methodology, results, and outcome, which will help make a strong impression in your job selection process.
