@@ -60,30 +60,63 @@ To run this project, you need the following Python libraries:
 - xgboost
 - lightgbm
 
+## How to Run
 
-Evaluation Metrics
+1. Clone the repository to your local machine:
+    
+    ```bash
+    git clone https://github.com/yourusername/loan-default-prediction.git
+    ```
+
+2. Navigate to the project directory:
+    
+    ```bash
+    cd loan-default-prediction
+    ```
+
+3. Open the notebooks in Jupyter:
+    
+    ```bash
+    jupyter notebook
+    ```
+
+4. Run the **EDA Notebook** first to explore and preprocess the data.
+5. Then, run the **Modeling and Comparison Notebook** to train and evaluate the models.
+6. Refer to the **Visualizations** for a comparison of the model performances.
+
+## Evaluation Metrics
+
 The models were evaluated based on the following metrics:
 
-Accuracy: Measures the overall correctness of the model.
-ROC AUC Score: Measures the model's ability to distinguish between the two classes (default and non-default).
-Confusion Matrix: Shows the true positives, false positives, true negatives, and false negatives.
-Classification Report: Provides precision, recall, and F1-score for both classes.
-Results
-Model Performance:
-Logistic Regression: Achieved an accuracy of 66.02% with an ROC AUC score of 0.71.
-Random Forest: Achieved an accuracy of 65.71% with an ROC AUC score of 0.70.
-XGBoost: Achieved an accuracy of 73.99% with an ROC AUC score of 0.70.
-LightGBM: Achieved an accuracy of 73.98% with an ROC AUC score of 0.71.
-Voting Classifier (Ensemble): Achieved the best performance with an accuracy of 74.64% and ROC AUC score of 0.71.
-Stacking Classifier: Achieved an accuracy of 67.69% with an ROC AUC score of 0.71.
-Winner: Voting Classifier
-The Voting Classifier outperformed other models, providing the highest accuracy and balanced performance across the confusion matrix, making it the best choice for this task.
+- **Accuracy**: Measures the overall correctness of the model.
+- **ROC AUC Score**: Measures the model's ability to distinguish between the two classes (default and non-default).
+- **Confusion Matrix**: Shows the true positives, false positives, true negatives, and false negatives.
+- **Classification Report**: Provides precision, recall, and F1-score for both classes.
 
-Conclusion
+## Results
+
+### Model Performance:
+
+1. **Logistic Regression**: Achieved an accuracy of 66.02% with an ROC AUC score of 0.71.
+2. **Random Forest**: Achieved an accuracy of 65.71% with an ROC AUC score of 0.70.
+3. **XGBoost**: Achieved an accuracy of 73.99% with an ROC AUC score of 0.70.
+4. **LightGBM**: Achieved an accuracy of 73.98% with an ROC AUC score of 0.71.
+5. **Voting Classifier (Ensemble)**: Achieved the best performance with an accuracy of 74.64% and ROC AUC score of 0.71.
+6. **Stacking Classifier**: Achieved an accuracy of 67.69% with an ROC AUC score of 0.71.
+
+### Winner: **Voting Classifier**
+
+The **Voting Classifier** outperformed other models, providing the highest accuracy and balanced performance across the confusion matrix, making it the best choice for this task.
+
+## Conclusion
+
 This project demonstrates the power of ensemble methods in improving predictive performance, especially in imbalanced datasets. By leveraging a Voting Classifier, we were able to significantly improve prediction accuracy. Further optimizations and hyperparameter tuning could further enhance performance.
 
-Contact
+---
+
+## Contact
+
 For any questions or comments, please feel free to contact me:
 
-Email: karanrpjain@gmail.com
-GitHub: github.com/KaranJain09
+- **Email**: karanrpjain@gmail.com
+- **GitHub**: [github.com/yourusername](https://github.com/KaranJain09)
