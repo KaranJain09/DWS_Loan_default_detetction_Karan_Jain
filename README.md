@@ -57,7 +57,7 @@ Clone the repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/yourusername/loan-default-prediction.git
+git clone https://https://github.com/KaranJain09/DWS_Loan_default_detetction_Karan_Jain.git
 Navigate to the project directory:
 
 bash
