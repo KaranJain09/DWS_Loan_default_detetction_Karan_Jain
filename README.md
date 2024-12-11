@@ -55,19 +55,16 @@ lightgbm
 How to Run
 Clone the repository to your local machine:
 
-bash
-Copy code
 git clone https://https://github.com/KaranJain09/DWS_Loan_default_detetction_Karan_Jain.git
+
 Navigate to the project directory:
 
-bash
-Copy code
 cd loan-default-prediction
+
 Open the notebooks in Jupyter:
 
-bash
-Copy code
 jupyter notebook
+
 Run the EDA Notebook first to explore and preprocess the data.
 
 Then, run the Modeling and Comparison Notebook to train and evaluate the models.
